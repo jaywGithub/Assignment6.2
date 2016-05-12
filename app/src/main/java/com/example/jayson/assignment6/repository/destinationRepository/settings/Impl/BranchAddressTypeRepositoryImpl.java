@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.repository.destinationRepository.settings.Impl;
+package com.example.jayson.assignment6.repository.destinationrepository.settings.Impl;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,9 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.example.jayson.assignment6.config.databases.DBConstants;
-import com.example.jayson.assignment6.domain.customer.settings.CustomerAddressType;
 import com.example.jayson.assignment6.domain.destination.settings.BranchAddressType;
-import com.example.jayson.assignment6.repository.destinationRepository.settings.BranchAddressTypeRepository;
+import com.example.jayson.assignment6.repository.destinationrepository.settings.BranchAddressTypeRepository;
 
 import java.util.HashSet;
 import java.util.Set;

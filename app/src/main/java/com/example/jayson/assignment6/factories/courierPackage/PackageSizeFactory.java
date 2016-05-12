@@ -1,6 +1,6 @@
-package com.example.jayson.assignment6.factories.courierPackage;
+package com.example.jayson.assignment6.factories.courierpackage;
 
-import com.example.jayson.assignment6.domain.courierPackage.PackageSize;
+import com.example.jayson.assignment6.domain.courierpackage.PackageSize;
 
 /**
  * Created by JAYSON on 2016-04-17.

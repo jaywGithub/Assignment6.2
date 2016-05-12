@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.courierPackageServices.settings.Impl;
+package com.example.jayson.assignment6.services.courierpackageservices.settings.Impl;
 
 import android.app.Service;
 import android.content.Intent;
@@ -6,10 +6,10 @@ import android.os.Binder;
 import android.os.IBinder;
 
 import com.example.jayson.assignment6.config.databases.util.DomainState;
-import com.example.jayson.assignment6.domain.courierPackage.CourierPackage;
-import com.example.jayson.assignment6.factories.courierPackage.PackageFactory;
-import com.example.jayson.assignment6.repository.courierPackageRepository.settings.SettingsRepository;
-import com.example.jayson.assignment6.services.courierPackageServices.settings.ActivatePackageService;
+import com.example.jayson.assignment6.domain.courierpackage.CourierPackage;
+import com.example.jayson.assignment6.factories.courierpackage.PackageFactory;
+import com.example.jayson.assignment6.repository.courierpackagerepository.settings.SettingsRepository;
+import com.example.jayson.assignment6.services.courierpackageservices.settings.ActivatePackageService;
 
 /**
  * Created by JAYSON on 2016-05-08.

@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.destinationServices.destination;
+package com.example.jayson.assignment6.services.destinationservices.destination;
 
 import android.content.Context;
 

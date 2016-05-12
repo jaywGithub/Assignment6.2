@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.customerServices.settings.Impl;
+package com.example.jayson.assignment6.services.customerservices.settings.Impl;
 
 /**
  * Created by JAYSON on 2016-05-07.

@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.repository.customerRepository.settings;
+package com.example.jayson.assignment6.repository.customerrepository.settings;
 
 import com.example.jayson.assignment6.repository.Repository;
 import com.example.jayson.assignment6.domain.customer.settings.Settings;

@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.courierCostServices;
+package com.example.jayson.assignment6.services.couriercostservices;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.IBinder;
 import android.test.AndroidTestCase;
 
 import com.example.jayson.assignment6.config.databases.util.App;
-import com.example.jayson.assignment6.services.courierCostServices.settings.Impl.ActivateSizeCostServiceImpl;
+import com.example.jayson.assignment6.services.couriercostservices.settings.Impl.ActivateSizeCostServiceImpl;
 
 import junit.framework.Assert;
 

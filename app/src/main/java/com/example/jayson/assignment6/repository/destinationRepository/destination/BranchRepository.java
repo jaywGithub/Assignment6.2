@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.repository.destinationRepository.destination;
+package com.example.jayson.assignment6.repository.destinationrepository.destination;
 
 import com.example.jayson.assignment6.domain.destination.Branch;
 import com.example.jayson.assignment6.repository.Repository;

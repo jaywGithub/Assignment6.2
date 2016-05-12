@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.customerServices.customer.Impl;
+package com.example.jayson.assignment6.services.customerservices.customer.Impl;
 
 import android.content.Context;
 

@@ -1,6 +1,6 @@
-package com.example.jayson.assignment6.factories.courierCost;
+package com.example.jayson.assignment6.factories.couriercost;
 
-import com.example.jayson.assignment6.domain.courierCost.TransportCost;
+import com.example.jayson.assignment6.domain.couriercost.TransportCost;
 
 /**
  * Created by JAYSON on 2016-04-22.

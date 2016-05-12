@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.domain.courierCost;
+package com.example.jayson.assignment6.domain.couriercost;
 
 import java.io.Serializable;
 

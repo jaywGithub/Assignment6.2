@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.employeeServices.settings;
+package com.example.jayson.assignment6.services.employeeservices.settings;
 
 /**
  * Created by JAYSON on 2016-05-08.

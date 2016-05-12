@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.destinationServices.settings;
+package com.example.jayson.assignment6.services.destinationservices.settings;
 
 /**
  * Created by JAYSON on 2016-05-08.

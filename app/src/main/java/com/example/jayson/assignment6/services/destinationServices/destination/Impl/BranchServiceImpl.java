@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.destinationServices.destination.Impl;
+package com.example.jayson.assignment6.services.destinationservices.destination.Impl;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -8,9 +8,9 @@ import com.example.jayson.assignment6.config.databases.util.App;
 import com.example.jayson.assignment6.config.databases.util.DomainState;
 import com.example.jayson.assignment6.domain.destination.Branch;
 import com.example.jayson.assignment6.factories.destination.BranchFactory;
-import com.example.jayson.assignment6.repository.destinationRepository.destination.BranchRepository;
-import com.example.jayson.assignment6.repository.destinationRepository.destination.Impl.BranchRepositoryImpl;
-import com.example.jayson.assignment6.services.destinationServices.destination.BranchService;
+import com.example.jayson.assignment6.repository.destinationrepository.destination.BranchRepository;
+import com.example.jayson.assignment6.repository.destinationrepository.destination.Impl.BranchRepositoryImpl;
+import com.example.jayson.assignment6.services.destinationservices.destination.BranchService;
 
 /**
  * Created by JAYSON on 2016-05-08.

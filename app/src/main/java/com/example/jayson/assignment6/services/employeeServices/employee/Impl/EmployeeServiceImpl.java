@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.employeeServices.employee.Impl;
+package com.example.jayson.assignment6.services.employeeservices.employee.Impl;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -8,9 +8,9 @@ import com.example.jayson.assignment6.config.databases.util.App;
 import com.example.jayson.assignment6.config.databases.util.DomainState;
 import com.example.jayson.assignment6.domain.employee.Employee;
 import com.example.jayson.assignment6.factories.employee.EmployeeFactory;
-import com.example.jayson.assignment6.repository.employeeRepository.employee.EmployeeRepository;
-import com.example.jayson.assignment6.repository.employeeRepository.employee.Impl.EmployeeRepositoryImpl;
-import com.example.jayson.assignment6.services.employeeServices.employee.EmployeeService;
+import com.example.jayson.assignment6.repository.employeerepository.employee.EmployeeRepository;
+import com.example.jayson.assignment6.repository.employeerepository.employee.Impl.EmployeeRepositoryImpl;
+import com.example.jayson.assignment6.services.employeeservices.employee.EmployeeService;
 
 /**
  * Created by JAYSON on 2016-05-08.

@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.destinationServices;
+package com.example.jayson.assignment6.services.destinationservices;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,7 +8,8 @@ import android.os.IBinder;
 import android.test.AndroidTestCase;
 
 import com.example.jayson.assignment6.config.databases.util.App;
-import com.example.jayson.assignment6.services.destinationServices.settings.Impl.ActivateBranchServiceImpl;
+import com.example.jayson.assignment6.services.destinationservices.destination.Impl.BranchServiceImpl;
+import com.example.jayson.assignment6.services.destinationservices.settings.Impl.ActivateBranchServiceImpl;
 
 import junit.framework.Assert;
 
@@ -17,7 +18,18 @@ import junit.framework.Assert;
  */
 public class ActivateBranchService extends AndroidTestCase {
 
-    private ActivateBranchServiceImpl activateService;
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp();
+    }
+
+    public void testUserContactService(){
+        Intent intent = new Intent(getContext(), BranchServiceImpl.class);
+        super.mContext.startService(intent);
+        Assert.assertEquals("Port-Elizabeth", getContext());
+    }
+
+    /*private ActivateBranchServiceImpl activateService;
     private boolean isBound;
 
     @Override
@@ -48,5 +60,5 @@ public class ActivateBranchService extends AndroidTestCase {
         String activate = activateService.activateAccount("155Durban");
         Assert.assertEquals("ACTIVATED", activate);
 
-    }
+    }*/
 }

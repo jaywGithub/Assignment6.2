@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.repository.customerRepository.customer.Impl;
+package com.example.jayson.assignment6.repository.customerrepository.customer.Impl;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.util.Log;
 
 import com.example.jayson.assignment6.config.databases.DBConstants;
 import com.example.jayson.assignment6.domain.customer.CustomerAddress;
-import com.example.jayson.assignment6.repository.customerRepository.customer.CustomerAddressRepository;
+import com.example.jayson.assignment6.repository.customerrepository.customer.CustomerAddressRepository;
 
 import java.util.HashSet;
 import java.util.Set;

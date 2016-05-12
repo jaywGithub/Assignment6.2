@@ -1,10 +1,9 @@
-package com.example.jayson.assignment6.repository.destinationRepository.settings;
+package com.example.jayson.assignment6.repository.destinationrepository.settings;
 
 import android.test.AndroidTestCase;
 
 import com.example.jayson.assignment6.domain.destination.settings.Settings;
-import com.example.jayson.assignment6.repository.customerRepository.settings.*;
-import com.example.jayson.assignment6.repository.destinationRepository.settings.Impl.SettingsRepositoryImpl;
+import com.example.jayson.assignment6.repository.destinationrepository.settings.Impl.SettingsRepositoryImpl;
 
 import junit.framework.Assert;
 

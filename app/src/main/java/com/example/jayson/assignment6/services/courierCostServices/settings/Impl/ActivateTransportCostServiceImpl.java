@@ -1,16 +1,15 @@
-package com.example.jayson.assignment6.services.courierCostServices.settings.Impl;
+package com.example.jayson.assignment6.services.couriercostservices.settings.Impl;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 
 import com.example.jayson.assignment6.config.databases.util.DomainState;
-import com.example.jayson.assignment6.domain.courierCost.TransportCost;
-import com.example.jayson.assignment6.factories.courierCost.TransportCostFactory;
-import com.example.jayson.assignment6.repository.courierCostRepository.settings.TransportCostTypeRepository;
-import com.example.jayson.assignment6.services.courierCostServices.settings.ActivateTransportCostService;
+import com.example.jayson.assignment6.domain.couriercost.TransportCost;
+import com.example.jayson.assignment6.factories.couriercost.TransportCostFactory;
+import com.example.jayson.assignment6.repository.couriercostrepository.settings.TransportCostTypeRepository;
+import com.example.jayson.assignment6.services.couriercostservices.settings.ActivateTransportCostService;
 
 /**
  * Created by JAYSON on 2016-05-08.

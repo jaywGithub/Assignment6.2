@@ -1,16 +1,15 @@
-package com.example.jayson.assignment6.services.employeeServices.settings.Impl;
+package com.example.jayson.assignment6.services.employeeservices.settings.Impl;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 
 import com.example.jayson.assignment6.config.databases.util.DomainState;
 import com.example.jayson.assignment6.domain.employee.Employee;
 import com.example.jayson.assignment6.factories.employee.EmployeeFactory;
-import com.example.jayson.assignment6.repository.employeeRepository.settings.SettingsRepository;
-import com.example.jayson.assignment6.services.employeeServices.settings.ActivateService;
+import com.example.jayson.assignment6.repository.employeerepository.settings.SettingsRepository;
+import com.example.jayson.assignment6.services.employeeservices.settings.ActivateService;
 
 /**
  * Created by JAYSON on 2016-05-08.

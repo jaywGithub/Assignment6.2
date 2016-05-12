@@ -1,8 +1,8 @@
-package com.example.jayson.assignment6.services.courierPackageServices.courierPackage;
+package com.example.jayson.assignment6.services.courierpackageservices.courierpackage;
 
 import android.content.Context;
 
-import com.example.jayson.assignment6.domain.courierPackage.PackageSize;
+import com.example.jayson.assignment6.domain.courierpackage.PackageSize;
 
 /**
  * Created by JAYSON on 2016-05-08.

@@ -1,6 +1,6 @@
-package com.example.jayson.assignment6.repository.courierPackageRepository.courierPackage;
+package com.example.jayson.assignment6.repository.courierpackagerepository.courierpackage;
 
-import com.example.jayson.assignment6.domain.courierPackage.PackageSize;
+import com.example.jayson.assignment6.domain.courierpackage.PackageSize;
 import com.example.jayson.assignment6.repository.Repository;
 
 /**

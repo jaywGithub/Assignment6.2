@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.customerServices;
+package com.example.jayson.assignment6.services.customerservices;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,7 +8,8 @@ import android.os.IBinder;
 import android.test.AndroidTestCase;
 
 import com.example.jayson.assignment6.config.databases.util.App;
-import com.example.jayson.assignment6.services.customerServices.settings.Impl.ActivateCustomerServiceImpl;
+import com.example.jayson.assignment6.services.customerservices.customer.Impl.CustomerServiceImpl;
+import com.example.jayson.assignment6.services.customerservices.settings.Impl.ActivateCustomerServiceImpl;
 
 import junit.framework.Assert;
 
@@ -17,7 +18,18 @@ import junit.framework.Assert;
  */
 public class ActivateCustomerServiceTest extends AndroidTestCase {
 
-    private ActivateCustomerServiceImpl activateService;
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp();
+    }
+
+    public void testUserContactService(){
+        Intent intent = new Intent(getContext(), CustomerServiceImpl.class);
+        super.mContext.startService(intent);
+        Assert.assertEquals("Jayson", getContext());
+    }
+
+    /*private ActivateCustomerServiceImpl activateService;
     private boolean isBound;
 
     @Override
@@ -61,5 +73,5 @@ public class ActivateCustomerServiceTest extends AndroidTestCase {
         Boolean deactivated = activateService.deactivateAccount();
         Assert.assertTrue("ACTIVATED", deactivated);
 
-    }
+    }*/
 }

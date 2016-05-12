@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.employeeServices.employee;
+package com.example.jayson.assignment6.services.employeeservices.employee;
 
 import android.content.Context;
 

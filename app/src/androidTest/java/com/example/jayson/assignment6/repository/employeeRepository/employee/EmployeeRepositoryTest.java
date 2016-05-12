@@ -1,12 +1,9 @@
-package com.example.jayson.assignment6.repository.employeeRepository.employee;
+package com.example.jayson.assignment6.repository.employeerepository.employee;
 
 import android.test.AndroidTestCase;
 
-import com.example.jayson.assignment6.domain.customer.Customer;
 import com.example.jayson.assignment6.domain.employee.Employee;
-import com.example.jayson.assignment6.repository.customerRepository.customer.CustomerRepository;
-import com.example.jayson.assignment6.repository.customerRepository.customer.Impl.CustomerRepositoryImpl;
-import com.example.jayson.assignment6.repository.employeeRepository.employee.Impl.EmployeeRepositoryImpl;
+import com.example.jayson.assignment6.repository.employeerepository.employee.Impl.EmployeeRepositoryImpl;
 
 import junit.framework.Assert;
 

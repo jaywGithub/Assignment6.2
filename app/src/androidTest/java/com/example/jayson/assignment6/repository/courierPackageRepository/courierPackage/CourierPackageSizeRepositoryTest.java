@@ -1,9 +1,9 @@
-package com.example.jayson.assignment6.repository.courierPackageRepository.courierPackage;
+package com.example.jayson.assignment6.repository.courierpackagerepository.courierpackage;
 
 import android.test.AndroidTestCase;
 
-import com.example.jayson.assignment6.domain.courierPackage.PackageSize;
-import com.example.jayson.assignment6.repository.courierPackageRepository.courierPackage.Impl.PackageSizeRepositoryImpl;
+import com.example.jayson.assignment6.domain.courierpackage.PackageSize;
+import com.example.jayson.assignment6.repository.courierpackagerepository.courierpackage.Impl.PackageSizeRepositoryImpl;
 
 import junit.framework.Assert;
 

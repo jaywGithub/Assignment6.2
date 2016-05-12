@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.customerServices;
+package com.example.jayson.assignment6.services.customerservices;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.IBinder;
 import android.test.AndroidTestCase;
 
 import com.example.jayson.assignment6.config.databases.util.App;
-import com.example.jayson.assignment6.services.customerServices.settings.Impl.ActivateServiceImpl;
+import com.example.jayson.assignment6.services.customerservices.settings.Impl.ActivateServiceImpl;
 
 import junit.framework.Assert;
 

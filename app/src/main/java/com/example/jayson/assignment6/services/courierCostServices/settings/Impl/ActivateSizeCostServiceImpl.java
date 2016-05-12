@@ -1,16 +1,15 @@
-package com.example.jayson.assignment6.services.courierCostServices.settings.Impl;
+package com.example.jayson.assignment6.services.couriercostservices.settings.Impl;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 
 import com.example.jayson.assignment6.config.databases.util.DomainState;
-import com.example.jayson.assignment6.domain.courierCost.SizeCost;
-import com.example.jayson.assignment6.factories.courierCost.SizeCostFactory;
-import com.example.jayson.assignment6.repository.courierCostRepository.settings.SizeCostTypeRepository;
-import com.example.jayson.assignment6.services.courierCostServices.settings.ActivateSizeCostService;
+import com.example.jayson.assignment6.domain.couriercost.SizeCost;
+import com.example.jayson.assignment6.factories.couriercost.SizeCostFactory;
+import com.example.jayson.assignment6.repository.couriercostrepository.settings.SizeCostTypeRepository;
+import com.example.jayson.assignment6.services.couriercostservices.settings.ActivateSizeCostService;
 
 /**
  * Created by JAYSON on 2016-05-08.

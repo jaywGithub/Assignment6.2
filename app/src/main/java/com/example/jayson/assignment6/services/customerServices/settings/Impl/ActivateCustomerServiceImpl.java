@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.customerServices.settings.Impl;
+package com.example.jayson.assignment6.services.customerservices.settings.Impl;
 
 import android.app.Service;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.os.IBinder;
 import com.example.jayson.assignment6.config.databases.util.DomainState;
 import com.example.jayson.assignment6.domain.customer.Customer;
 import com.example.jayson.assignment6.factories.customer.CustomerFactory;
-import com.example.jayson.assignment6.repository.customerRepository.settings.SettingsRepository;
+import com.example.jayson.assignment6.repository.customerrepository.settings.SettingsRepository;
 
 /**
  * Created by JAYSON on 2016-05-08.

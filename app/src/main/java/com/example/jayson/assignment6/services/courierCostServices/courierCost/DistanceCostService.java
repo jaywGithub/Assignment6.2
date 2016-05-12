@@ -1,8 +1,8 @@
-package com.example.jayson.assignment6.services.courierCostServices.courierCost;
+package com.example.jayson.assignment6.services.couriercostservices.couriercost;
 
 import android.content.Context;
 
-import com.example.jayson.assignment6.domain.courierCost.DistanceCost;
+import com.example.jayson.assignment6.domain.couriercost.DistanceCost;
 
 /**
  * Created by JAYSON on 2016-05-08.

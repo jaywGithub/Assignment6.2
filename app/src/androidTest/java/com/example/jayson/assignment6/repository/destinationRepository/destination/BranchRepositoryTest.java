@@ -1,12 +1,9 @@
-package com.example.jayson.assignment6.repository.destinationRepository.destination;
+package com.example.jayson.assignment6.repository.destinationrepository.destination;
 
 import android.test.AndroidTestCase;
 
 import com.example.jayson.assignment6.domain.destination.Branch;
-import com.example.jayson.assignment6.domain.destination.settings.Settings;
-import com.example.jayson.assignment6.repository.destinationRepository.destination.Impl.BranchRepositoryImpl;
-import com.example.jayson.assignment6.repository.destinationRepository.settings.Impl.SettingsRepositoryImpl;
-import com.example.jayson.assignment6.repository.destinationRepository.settings.SettingsRepository;
+import com.example.jayson.assignment6.repository.destinationrepository.destination.Impl.BranchRepositoryImpl;
 
 import junit.framework.Assert;
 

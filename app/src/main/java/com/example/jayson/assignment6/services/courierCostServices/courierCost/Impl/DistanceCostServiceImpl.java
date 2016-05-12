@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.services.courierCostServices.courierCost.Impl;
+package com.example.jayson.assignment6.services.couriercostservices.couriercost.Impl;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -6,11 +6,11 @@ import android.content.Intent;
 
 import com.example.jayson.assignment6.config.databases.util.App;
 import com.example.jayson.assignment6.config.databases.util.DomainState;
-import com.example.jayson.assignment6.domain.courierCost.DistanceCost;
-import com.example.jayson.assignment6.factories.courierCost.DistanceCostFactory;
-import com.example.jayson.assignment6.repository.courierCostRepository.courierCost.DistanceCostRepository;
-import com.example.jayson.assignment6.repository.courierCostRepository.courierCost.Impl.DistanceCostRepositoryImpl;
-import com.example.jayson.assignment6.services.courierCostServices.courierCost.DistanceCostService;
+import com.example.jayson.assignment6.domain.couriercost.DistanceCost;
+import com.example.jayson.assignment6.factories.couriercost.DistanceCostFactory;
+import com.example.jayson.assignment6.repository.couriercostrepository.couriercost.DistanceCostRepository;
+import com.example.jayson.assignment6.repository.couriercostrepository.couriercost.Impl.DistanceCostRepositoryImpl;
+import com.example.jayson.assignment6.services.couriercostservices.couriercost.DistanceCostService;
 
 /**
  * Created by JAYSON on 2016-05-08.

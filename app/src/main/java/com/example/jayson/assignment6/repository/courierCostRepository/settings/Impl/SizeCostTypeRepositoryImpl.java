@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.repository.courierCostRepository.settings.Impl;
+package com.example.jayson.assignment6.repository.couriercostrepository.settings.Impl;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,9 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.example.jayson.assignment6.config.databases.DBConstants;
-import com.example.jayson.assignment6.domain.courierCost.SizeCost;
-import com.example.jayson.assignment6.domain.courierCost.settings.SizeCostType;
-import com.example.jayson.assignment6.repository.courierCostRepository.settings.SizeCostTypeRepository;
+import com.example.jayson.assignment6.domain.couriercost.settings.SizeCostType;
+import com.example.jayson.assignment6.repository.couriercostrepository.settings.SizeCostTypeRepository;
 
 import java.util.HashSet;
 import java.util.Set;

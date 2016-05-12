@@ -1,12 +1,9 @@
-package com.example.jayson.assignment6.repository.courierCostRepository.settings;
+package com.example.jayson.assignment6.repository.couriercostrepository.settings;
 
 import android.test.AndroidTestCase;
 
-import com.example.jayson.assignment6.domain.courierCost.SizeCost;
-import com.example.jayson.assignment6.domain.courierCost.settings.SizeCostType;
-import com.example.jayson.assignment6.repository.courierCostRepository.courierCost.Impl.SizeCostRepositoryImpl;
-import com.example.jayson.assignment6.repository.courierCostRepository.courierCost.SizeCostRepository;
-import com.example.jayson.assignment6.repository.courierCostRepository.settings.Impl.SizeCostTypeRepositoryImpl;
+import com.example.jayson.assignment6.domain.couriercost.settings.SizeCostType;
+import com.example.jayson.assignment6.repository.couriercostrepository.settings.Impl.SizeCostTypeRepositoryImpl;
 
 import junit.framework.Assert;
 

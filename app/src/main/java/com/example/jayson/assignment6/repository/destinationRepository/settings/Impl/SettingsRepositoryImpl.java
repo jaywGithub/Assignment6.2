@@ -1,4 +1,4 @@
-package com.example.jayson.assignment6.repository.destinationRepository.settings.Impl;
+package com.example.jayson.assignment6.repository.destinationrepository.settings.Impl;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.util.Log;
 
 import com.example.jayson.assignment6.config.databases.DBConstants;
 import com.example.jayson.assignment6.domain.destination.settings.Settings;
-import com.example.jayson.assignment6.repository.destinationRepository.settings.SettingsRepository;
+import com.example.jayson.assignment6.repository.destinationrepository.settings.SettingsRepository;
 
 import java.util.HashSet;
 import java.util.Set;

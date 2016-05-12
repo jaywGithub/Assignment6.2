@@ -1,12 +1,9 @@
-package com.example.jayson.assignment6.repository.courierCostRepository.courierCost;
+package com.example.jayson.assignment6.repository.couriercostrepository.couriercost;
 
 import android.test.AndroidTestCase;
 
-import com.example.jayson.assignment6.domain.courierCost.DistanceCost;
-import com.example.jayson.assignment6.domain.customer.CustomerAddress;
-import com.example.jayson.assignment6.repository.courierCostRepository.courierCost.Impl.DistanceCostRepositoryImpl;
-import com.example.jayson.assignment6.repository.customerRepository.customer.CustomerAddressRepository;
-import com.example.jayson.assignment6.repository.customerRepository.customer.Impl.CustomerAddressRepositoryImpl;
+import com.example.jayson.assignment6.domain.couriercost.DistanceCost;
+import com.example.jayson.assignment6.repository.couriercostrepository.couriercost.Impl.DistanceCostRepositoryImpl;
 
 import junit.framework.Assert;
 

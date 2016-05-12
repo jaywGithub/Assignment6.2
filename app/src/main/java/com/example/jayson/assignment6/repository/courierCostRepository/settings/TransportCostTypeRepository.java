@@ -1,6 +1,6 @@
-package com.example.jayson.assignment6.repository.courierCostRepository.settings;
+package com.example.jayson.assignment6.repository.couriercostrepository.settings;
 
-import com.example.jayson.assignment6.domain.courierCost.settings.TransportCostType;
+import com.example.jayson.assignment6.domain.couriercost.settings.TransportCostType;
 import com.example.jayson.assignment6.repository.Repository;
 
 /**

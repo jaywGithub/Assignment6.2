@@ -1,15 +1,9 @@
-package com.example.jayson.assignment6.services.courierPackageServices;
+package com.example.jayson.assignment6.services.courierpackageservices;
 
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
-import android.content.ServiceConnection;
-import android.os.IBinder;
 import android.test.AndroidTestCase;
 
-import com.example.jayson.assignment6.config.databases.util.App;
-import com.example.jayson.assignment6.services.courierPackageServices.settings.Impl.ActivatePackageServiceImpl;
-import com.example.jayson.assignment6.services.courierPackageServices.settings.Impl.ActivateServiceImpl;
+import com.example.jayson.assignment6.services.courierpackageservices.courierpackage.Impl.PackageServiceImpl;
 
 import junit.framework.Assert;
 
@@ -18,7 +12,18 @@ import junit.framework.Assert;
  */
 public class ActivatePackageServiceTest extends AndroidTestCase {
 
-    private ActivatePackageServiceImpl activateService;
+    @Override
+    protected void setUp() throws Exception {
+        super.setUp();
+    }
+
+    public void testUserContactService(){
+        Intent intent = new Intent(getContext(), PackageServiceImpl.class);
+        super.mContext.startService(intent);
+        Assert.assertEquals("Clothes", getContext());
+    }
+
+    /*private ActivatePackageServiceImpl activateService;
     private boolean isBound;
 
     @Override
@@ -60,5 +65,5 @@ public class ActivatePackageServiceTest extends AndroidTestCase {
         Boolean deactivated = activateService.deactivateAccount();
         Assert.assertTrue("ACTIVATED", deactivated);
 
-    }
+    }*/
 }

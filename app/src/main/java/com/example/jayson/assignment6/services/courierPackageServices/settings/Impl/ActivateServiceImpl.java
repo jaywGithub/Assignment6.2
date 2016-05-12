@@ -1,16 +1,15 @@
-package com.example.jayson.assignment6.services.courierPackageServices.settings.Impl;
+package com.example.jayson.assignment6.services.courierpackageservices.settings.Impl;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 
 import com.example.jayson.assignment6.config.databases.util.DomainState;
-import com.example.jayson.assignment6.domain.courierPackage.PackageSize;
-import com.example.jayson.assignment6.factories.courierPackage.PackageSizeFactory;
-import com.example.jayson.assignment6.repository.courierPackageRepository.settings.SettingsRepository;
-import com.example.jayson.assignment6.services.courierPackageServices.settings.ActivateService;
+import com.example.jayson.assignment6.domain.courierpackage.PackageSize;
+import com.example.jayson.assignment6.factories.courierpackage.PackageSizeFactory;
+import com.example.jayson.assignment6.repository.courierpackagerepository.settings.SettingsRepository;
+import com.example.jayson.assignment6.services.courierpackageservices.settings.ActivateService;
 
 /**
  * Created by JAYSON on 2016-05-08.
